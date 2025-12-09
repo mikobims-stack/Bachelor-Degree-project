@@ -1403,7 +1403,7 @@ move_bike <- function(simulation_time, direction_from, direction_to){
           points(x[113], y[75],pch=15, col="green", cex=2)
           
           points(x[100], y[190-i],pch=20, col="red", cex=2)
-          sys.sleep(0.3)
+          Sys.sleep(0.3)
         }else if(i>140){
           points(x[87], y[85],pch=15, col="green", cex=2)
           points(x[121], y[120],pch=15, col="green", cex=2)
@@ -4056,4 +4056,5 @@ move_all_vehicules <- function(simulation_time, direction_from, direction_to){
   }
   
 }
+
 move_bike(200,"Left","UP")
