@@ -1,0 +1,12 @@
+Package: library.x.roundabout
+Type: Package
+Title: Procedures that simulate a roundabout with four way.
+Version: 0.0.0.9000
+Authors@R: 
+    person("BIMARVA MICHEL", "EKWA RANDY NTOH", , "Mikobims@gmail.com", role = c("aut", "cre"))
+Description: this packages provides a list of procedure that can be use to simulate a roundabout with four way.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
