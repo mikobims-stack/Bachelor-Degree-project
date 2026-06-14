@@ -154,7 +154,7 @@ from_south <- function(i, x, y){
 #'
 #' @return No return value
 #' @export
-move_bicycle <- function(simulation_time, direction_from, direction_to){
+move_bicycle_Y <- function(simulation_time, direction_from, direction_to){
   
   #controlling input time to be numeric from 100 to 200
   if(!is.numeric(simulation_time)){
@@ -356,7 +356,7 @@ move_bicycle <- function(simulation_time, direction_from, direction_to){
 #'
 #' @return No return value
 #' @export
-move_bike <- function(simulation_time, direction_from, direction_to){
+move_bike_Y <- function(simulation_time, direction_from, direction_to){
   
   #controlling input time to be numeric from 100 to 200
   if(!is.numeric(simulation_time)){
@@ -568,7 +568,7 @@ move_bike <- function(simulation_time, direction_from, direction_to){
 #'
 #' @return No return value
 #' @export
-move_car <- function(simulation_time, direction_from, direction_to){
+move_car_Y <- function(simulation_time, direction_from, direction_to){
   
   #controlling input time to be numeric from 100 to 200
   if(!is.numeric(simulation_time)){
@@ -779,7 +779,7 @@ move_car <- function(simulation_time, direction_from, direction_to){
 #'
 #' @return No return value
 #' @export
-move_truck <- function(simulation_time, direction_from, direction_to){
+move_truck_Y <- function(simulation_time, direction_from, direction_to){
   
   #controlling input time to be numeric from 100 to 200
   if(!is.numeric(simulation_time)){
