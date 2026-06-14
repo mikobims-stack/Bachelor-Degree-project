@@ -352,8 +352,8 @@ check_Id <- function(vehicle) {
     for (j in (i + 1):nrow(vehicle)) {
       if (vehicle$vehicle_id[i] == vehicle$vehicle_id[j]) {
         cat("Vehicles have same matricule, enter new matricules for vehicles")
-        vehicle$vehicle_id[i] <- readline(prompt = "Enter Matricule of vehicle.... \n",vehicle$vehicle_id[i])
-        vehicle$vehicle_id[j] <- readline(prompt = "Enter Matricule for vehicle.... \n", vehicle$vehicle_id[j])
+        vehicle$vehicle_id[i] <- readline(prompt = "Enter Matricule of vehicle.... \n")
+        vehicle$vehicle_id[j] <- readline(prompt = "Enter Matricule for vehicle.... \n")
         cat("\n Run the check_id() function again....\n")
       }
     }
